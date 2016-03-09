@@ -1,0 +1,29 @@
+/*Task. Написать класс BlockConditioners, Conditioner и MainConditioners.
+Класс BlockConditioners-это набор кондишнов.
+В блоке управления 10 кондиционеров.
+Делегирование.
+Класс Conditioner: int temperature, setTemperature(int k), turnOn(),turnOff(), getTemperature(),?? getTurn()
+Класс MainConditioner: консольное меню, где вызываются только методы объекта  BlockConditioners.  
+Консольное меню:
+1. Отобразить состояние всех кондиционеров
+2. Включить кондиционер с индексом...
+3. Выключить кондиционер с индексом...
+4. Установить температуру для кондиционера с индексом...
+5. Выход.*/
+
+package week3_lesson1_15_04_15;
+
+public class Conditioner {
+	private int temp;
+	public Conditioner() {
+		
+	}
+	public int getTemp(){	
+		return temp;
+	}
+	public void setTemp(int t){
+		this.temp = t;
+	}
+	public void turnOn(){}
+	public void turnOff(){}
+}
